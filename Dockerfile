@@ -15,6 +15,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     openjdk-17-jdk-headless \
     rsync \
     osslsigncode \
+    nodejs \
     && rm -rf /var/lib/apt/lists/*
 
 # When in doubt, see the downloads page: https://github.com/godotengine/godot-builds/releases/
